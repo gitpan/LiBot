@@ -1,0 +1,63 @@
+---
+abstract: 'The bot framework'
+author:
+  - 'Tokuhiro Matsuno < tokuhirom @ gmail.com >'
+build_requires:
+  Test::AllModules: 0
+configure_requires:
+  CPAN::Meta: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.0.49, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: LiBot
+provides:
+  LiBot:
+    file: lib/LiBot.pm
+    version: v0.0.1
+  LiBot::Handler::CoreList:
+    file: lib/LiBot/Handler/CoreList.pm
+    version: 0
+  LiBot::Handler::IkachanForwarder:
+    file: lib/LiBot/Handler/IkachanForwarder.pm
+    version: 0
+  LiBot::Handler::Karma:
+    file: lib/LiBot/Handler/Karma.pm
+    version: 0
+  LiBot::Handler::LLEval:
+    file: lib/LiBot/Handler/LLEval.pm
+    version: 0
+  LiBot::Handler::PerldocJP:
+    file: lib/LiBot/Handler/PerldocJP.pm
+    version: 0
+  LiBot::Handler::URLFetcher:
+    file: lib/LiBot/Handler/URLFetcher.pm
+    version: 0
+  LiBot::Message:
+    file: lib/LiBot/Message.pm
+    version: 0
+  LiBot::Provider::Lingr:
+    file: lib/LiBot/Provider/Lingr.pm
+    version: 0
+  LiBot::Test::Handler:
+    file: lib/LiBot/Test/Handler.pm
+    version: 0
+requires:
+  DB_File: 0
+  Data::OptList: 0
+  HTML::Entities: 0
+  HTTP::Response::Encoding: 0
+  JSON: 0
+  Log::Pony: 0
+  Mouse: 0
+  Pod::PerldocJp: 0
+  Text::Shorten: 0
+  perl: 5.010000
+resources:
+  bugtracker: https://github.com/tokuhirom/LiBot/issues
+  homepage: https://github.com/tokuhirom/LiBot
+  repository: git://github.com/tokuhirom/LiBot.git
+version: v0.0.1

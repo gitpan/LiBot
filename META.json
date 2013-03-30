@@ -1,0 +1,95 @@
+{
+   "abstract" : "The bot framework",
+   "author" : [
+      "Tokuhiro Matsuno < tokuhirom @ gmail.com >"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.0.49",
+   "license" : "perl_5",
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "LiBot",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Wordlist::hanekomu" : "0",
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spelling" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DB_File" : "0",
+            "Data::OptList" : "0",
+            "HTML::Entities" : "0",
+            "HTTP::Response::Encoding" : "0",
+            "JSON" : "0",
+            "Log::Pony" : "0",
+            "Mouse" : "0",
+            "Pod::PerldocJp" : "0",
+            "Text::Shorten" : "0",
+            "perl" : "5.010000"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::AllModules" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "LiBot" : {
+         "file" : "lib/LiBot.pm",
+         "version" : "v0.0.1"
+      },
+      "LiBot::Handler::CoreList" : {
+         "file" : "lib/LiBot/Handler/CoreList.pm"
+      },
+      "LiBot::Handler::IkachanForwarder" : {
+         "file" : "lib/LiBot/Handler/IkachanForwarder.pm"
+      },
+      "LiBot::Handler::Karma" : {
+         "file" : "lib/LiBot/Handler/Karma.pm"
+      },
+      "LiBot::Handler::LLEval" : {
+         "file" : "lib/LiBot/Handler/LLEval.pm"
+      },
+      "LiBot::Handler::PerldocJP" : {
+         "file" : "lib/LiBot/Handler/PerldocJP.pm"
+      },
+      "LiBot::Handler::URLFetcher" : {
+         "file" : "lib/LiBot/Handler/URLFetcher.pm"
+      },
+      "LiBot::Message" : {
+         "file" : "lib/LiBot/Message.pm"
+      },
+      "LiBot::Provider::Lingr" : {
+         "file" : "lib/LiBot/Provider/Lingr.pm"
+      },
+      "LiBot::Test::Handler" : {
+         "file" : "lib/LiBot/Test/Handler.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/LiBot/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/LiBot",
+      "repository" : {
+         "url" : "git://github.com/tokuhirom/LiBot.git",
+         "web" : "https://github.com/tokuhirom/LiBot"
+      }
+   },
+   "version" : "v0.0.1"
+}
