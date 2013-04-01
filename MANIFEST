@@ -16,9 +16,15 @@ lib/LiBot/Handler/LLEval.pm
 lib/LiBot/Handler/PerldocJP.pm
 lib/LiBot/Handler/URLFetcher.pm
 lib/LiBot/Message.pm
+lib/LiBot/Provider/IRC.pm
 lib/LiBot/Provider/Lingr.pm
 lib/LiBot/Test/Handler.pm
 script/libot.pl
 t/00_compile.t
 t/Handler/CoreList.t
 t/Handler/Karmma.t
+Build.PL
+LICENSE
+META.json
+META.yml
+MANIFEST
