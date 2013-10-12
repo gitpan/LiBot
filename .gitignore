@@ -1,8 +1,0 @@
-karma.db
-/LiBot-*
-/.build
-/_build_params
-/Build
-!Build/
-!META.json
-karma.bdb

@@ -4,27 +4,41 @@
       "Tokuhiro Matsuno < tokuhirom @ gmail.com >"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.0.49",
-   "license" : "perl_5",
+   "generated_by" : "Minilla/v0.7.5",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
    "name" : "LiBot",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
    "prereqs" : {
       "configure" : {
          "requires" : {
             "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
             "Module::Build" : "0.38"
          }
       },
       "develop" : {
          "requires" : {
-            "Pod::Wordlist::hanekomu" : "0",
             "Test::CPAN::Meta" : "0",
             "Test::MinimumVersion" : "0.10108",
             "Test::Pod" : "1.41",
-            "Test::Spelling" : "0"
+            "Test::Spellunker" : "v0.2.7"
          }
       },
       "runtime" : {
@@ -56,7 +70,7 @@
    "provides" : {
       "LiBot" : {
          "file" : "lib/LiBot.pm",
-         "version" : "v0.0.2"
+         "version" : "v0.0.3"
       },
       "LiBot::Handler::CoreList" : {
          "file" : "lib/LiBot/Handler/CoreList.pm"
@@ -100,7 +114,7 @@
          "web" : "https://github.com/tokuhirom/LiBot"
       }
    },
-   "version" : "v0.0.2",
+   "version" : "v0.0.3",
    "x_contributors" : [
       "mattn <mattn.jp@gmail.com>",
       "tokuhirom <tokuhirom@gmail.com>"
